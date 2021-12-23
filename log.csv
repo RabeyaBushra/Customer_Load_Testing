@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1640275850724,3490,customerlogin,200,OK,Thread Group 1-10,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,3490,0,3182
+1640275850129,4065,customerlogin,200,OK,Thread Group 1-4,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,4065,0,3764
+1640275850325,3868,customerlogin,200,OK,Thread Group 1-6,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,3868,0,3568
+1640275850521,3673,customerlogin,200,OK,Thread Group 1-8,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,3673,0,3372
+1640275850620,3580,customerlogin,200,OK,Thread Group 1-9,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,3580,0,3279
+1640275850227,3973,customerlogin,200,OK,Thread Group 1-5,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,3973,0,3678
+1640275850031,4183,customerlogin,200,OK,Thread Group 1-3,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,4183,0,3874
+1640275849994,4629,customerlogin,200,OK,Thread Group 1-2,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,4629,0,4354
+1640275849993,4703,customerlogin,200,OK,Thread Group 1-1,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,4703,0,4415
+1640275850425,4629,customerlogin,200,OK,Thread Group 1-7,text,true,,433,288,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,4629,0,3480
+1640275855888,281,customer update,200,OK,Thread Group 1-8,text,true,,387,527,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/update/1755,281,0,0
+1640275855888,291,customer update,400,Bad Request,Thread Group 1-1,text,false,No results for path: $['message'],317,513,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/update/id%20,291,0,0
+1640275855890,298,customer update,503,Service Unavailable,Thread Group 1-7,text,false,Expected to find an object with property ['message'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,715,533,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/update/1071,298,0,0
+1640275856189,3,create new customer csv,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-7,text,false,,2102,0,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1640275856456,299,customer update,200,OK,Thread Group 1-2,text,true,,389,529,9,9,https://customer-test-api.herokuapp.com/customer/api/v1/update/1370,299,0,0
+1640275856214,1314,customer update,200,OK,Thread Group 1-9,text,true,,403,543,9,9,https://customer-test-api.herokuapp.com/customer/api/v1/update/1946,1314,0,0
+1640275855939,2321,customer update,200,OK,Thread Group 1-6,text,true,,390,530,9,9,https://customer-test-api.herokuapp.com/customer/api/v1/update/1999,2321,0,0
+1640275856755,2295,create new customer csv,208,Already Reported,Thread Group 1-2,text,true,,305,527,9,9,https://customer-test-api.herokuapp.com/customer/api/v1/create,2295,0,0
+1640275855900,4316,customer update,200,OK,Thread Group 1-3,text,true,,389,529,8,8,https://customer-test-api.herokuapp.com/customer/api/v1/update/1352,4315,0,0
+1640275855908,4308,customer update,200,OK,Thread Group 1-5,text,true,,394,534,8,8,https://customer-test-api.herokuapp.com/customer/api/v1/update/1286,4307,0,0
+1640275857530,4322,create new customer csv,208,Already Reported,Thread Group 1-9,text,true,,305,541,8,8,https://customer-test-api.herokuapp.com/customer/api/v1/create,4322,0,0
+1640275856180,7301,create new customer csv,400,Bad Request,Thread Group 1-1,text,false,,317,510,7,7,https://customer-test-api.herokuapp.com/customer/api/v1/create,7301,0,0
+1640275858262,5293,create new customer csv,208,Already Reported,Thread Group 1-6,text,true,,305,528,6,6,https://customer-test-api.herokuapp.com/customer/api/v1/create,5293,0,0
+1640275856267,7307,customer update,200,OK,Thread Group 1-10,text,true,,391,531,5,5,https://customer-test-api.herokuapp.com/customer/api/v1/update/1134,7307,0,0
+1640275855963,9331,customer update,200,OK,Thread Group 1-4,text,true,,394,534,5,5,https://customer-test-api.herokuapp.com/customer/api/v1/update/1399,9330,0,0
+1640275863576,5320,create new customer csv,208,Already Reported,Thread Group 1-10,text,true,,305,529,5,5,https://customer-test-api.herokuapp.com/customer/api/v1/create,5319,0,0
+1640275856174,14334,create new customer csv,208,Already Reported,Thread Group 1-8,text,true,,305,525,4,4,https://customer-test-api.herokuapp.com/customer/api/v1/create,14330,0,0
+1640275860222,10307,create new customer csv,208,Already Reported,Thread Group 1-3,text,true,,305,527,3,3,https://customer-test-api.herokuapp.com/customer/api/v1/create,10307,0,0
+1640275860218,10315,create new customer csv,208,Already Reported,Thread Group 1-5,text,true,,305,532,2,2,https://customer-test-api.herokuapp.com/customer/api/v1/create,10315,0,0
+1640275865295,5295,create new customer csv,208,Already Reported,Thread Group 1-4,text,true,,305,532,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/create,5295,0,0
