@@ -5,3 +5,4 @@
 3. Give following command:
                   jmeter -n -t RoadToSDET-B2.jmx -l log.csv -e -o Reports
 
+![customer_loadT_report](https://user-images.githubusercontent.com/61241763/147269000-71ded742-431d-4486-9635-36a2127168c9.PNG)
